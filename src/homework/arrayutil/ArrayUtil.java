@@ -23,7 +23,7 @@ public class ArrayUtil {
         int[] nums = {1, 45, 3, 4, 5, 6, 9, 64, 8, 91};
 
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] % 2 == 1) {
+            if (nums[i] % 2 == 0) {
                 System.out.print(nums[i]);
                 System.out.print(" ");
 
