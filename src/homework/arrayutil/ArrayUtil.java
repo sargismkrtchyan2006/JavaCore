@@ -2,16 +2,29 @@ package homework.arrayutil;
 
 public class ArrayUtil {
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 45, 3, 4, 5, 6, 9, 5, 8};
-        int max = nums[0];
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i]>max) {
-                max= nums[i] ;
-            }
 
+//        int[] nums = new int[]{1, 45, 3, 4, 5, 6, 9, 5, 8, 91};
+//        int min = nums[0];
+//        for (int i = 0; i < nums.length; i++) {
+//            if (nums[i] < min)
+//                min = nums[i];
+//        }
+//        System.out.println(min);
+
+//        MASSIVES ALL ELEMENTS
+        int[] nums = {1, 45, 3, 4, 5, 6, 9, 5, 8, 91,};
+        for (int i = 0; i < nums.length; i++) {
+            System.out.print(nums[i] + " ");
         }
-        System.out.println(max);
+//        int[] nums = {1, 45, 3, 4, 5, 6, 9, 64, 8, 91};
+//        for (int i = 0; i < nums.length; i++) {
+//            if (nums[i] % 2 != 0) {
+//                System.out.print(nums[i]);
+//                System.out.print(" ");
+//            }
+//        }
     }
+
 }
 
 
