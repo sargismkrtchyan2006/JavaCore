@@ -7,6 +7,7 @@ public class DebugExample {
             System.out.print(numbers[i] + " ");
         }
         numbers[0] = 70;
+
         System.out.println();
         for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i] + " ");
