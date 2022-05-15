@@ -1,6 +1,10 @@
 package homework.arrayutil;
 
+import java.util.EnumSet;
+
 public class ArrayUtil {
+
+
     public static void main(String[] args) {
 
 //        int[] nums = new int[]{1, 45, 3, 4, 5, 6, 9, 5, 8, 91};
@@ -11,18 +15,21 @@ public class ArrayUtil {
 //        }
 //        System.out.println(min);
 
-//        MASSIVES ALL ELEMENTS
-        int[] nums = {1, 45, 3, 4, 5, 6, 9, 5, 8, 91,};
-        for (int i = 0; i < nums.length; i++) {
-            System.out.print(nums[i] + " ");
-        }
-//        int[] nums = {1, 45, 3, 4, 5, 6, 9, 64, 8, 91};
+
+//        int[] nums = {1, 45, 3, 4, 5, 6, 9, 5, 8, 91,};
 //        for (int i = 0; i < nums.length; i++) {
-//            if (nums[i] % 2 != 0) {
-//                System.out.print(nums[i]);
-//                System.out.print(" ");
-//            }
+//            System.out.print(nums[i] + " ");
 //        }
+        int[] nums = {1, 45, 3, 4, 5, 6, 9, 64, 8, 91};
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] % 2 == 1) {
+                System.out.print(nums[i]);
+                System.out.print(" ");
+
+
+            }
+        }
     }
 
 }
