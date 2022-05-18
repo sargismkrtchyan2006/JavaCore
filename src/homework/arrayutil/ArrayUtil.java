@@ -63,11 +63,11 @@ public class ArrayUtil {
         int[] nums = {5, 61, 70};
         int sum = 0;
         for (int i = 0; i < nums.length; i++) {
-            sum = nums[i] += 66;
+            sum += nums[i];
 
 
         }
-        System.out.println(sum/ nums.length);
+        System.out.println(sum);
     }
 }
 
