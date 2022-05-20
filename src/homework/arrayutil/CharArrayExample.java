@@ -33,21 +33,21 @@ public class CharArrayExample {
 //            System.out.println(false);
 //
 //        }
-        char[] text = {' ', ' ', 'b', 'a', 'r', 'e', 'v', ' ', ' '};
-        for (int i = 0; i < text.length; i++) {
-            if (text[i] != ' '){
-                System.out.print(text[i ]);
-            }
-        }
-//        char[] bobarray = {'b', 'a', 'b', 'o', 'l', 'a'};
-//        for (int i = 0; i < bobarray.length; i++) {
-//            if (bobarray[i]=='b'&&bobarray[i+2]=='b'){
-//                System.out.println(true);
-//                break;
-//            }else{
-//                System.out.println(false);
-//                break;
+//        char[] text = {' ', ' ', 'b', 'a', 'r', 'e', 'v', ' ', ' '};
+//        for (int i = 0; i < text.length; i++) {
+//            if (text[i] != ' '){
+//                System.out.print(text[i ]);
 //            }
 //        }
+        char[] bobarray = {'b', 'a', 'b', 'o', 'l', 'a'};
+        for (int i = 0; i < bobarray.length; i++) {
+            if (bobarray[i]=='b'&&bobarray[i+2]=='b'){
+                System.out.println(true);
+                break;
+            }else{
+                System.out.println(false);
+                break;
+            }
+        }
     }
 }
