@@ -3,25 +3,25 @@ package homework.arrayutil;
 public class CharArrayExample {
     public static void main(String[] args) {
 
-        char[] chars = {'j', 'a', 'v', 'a', 'l', 'o', 'v', 'e'};
-        char c = 'o';
-        int count = 0;
-        int i;
-        for (i = 0; i < chars.length; i++) {
-            if (chars[i] == c) {
-                count++;
-            }
-        }
+//        char[] chars = {'j', 'a', 'v', 'a', 'l', 'o', 'v', 'e'};
+//        char c = 'o';
+//        int count = 0;
+//        int i;
+//        for (i = 0; i < chars.length; i++) {
+//            if (chars[i] == c) {
+//                count++;
+//            }
+//        }
+//
+//        System.out.println(count);
+              char[] chars2 = {'j', 'a', 'v', 'a', 'l', 'o', 'v', 'e'};
+        char first;
+        char seconds;
+        first = (char) (chars2.length / 2);
+        seconds = (char) (chars2.length / 2 - 1);
 
-        System.out.println(count);
-        //      char[] chars2 = {'j', 'a', 'v', 'a', 'l', 'o', 'v', 'e'};
-//        char first;
-//        char seconds;
-//        first = (char) (chars2.length / 2);
-//        seconds = (char) (chars2.length / 2 - 1);
-//
-//
-//        System.out.println(chars2[first] + " " + chars2[seconds]);
+
+        System.out.println(chars2[first] + " " + chars2[seconds]);
 
 //        char[] chars3 = {'j', 'a', 'v', 'a', 'l', 'o', 'l', 'y'};
 //
