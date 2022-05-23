@@ -4,7 +4,7 @@ public class CharArrayExample {
     public static void main(String[] args) {
 
 //        char[] chars = {'j', 'a', 'v', 'a', 'l', 'o', 'v', 'e'};
-//        char c = 'o';
+//        char c = 'v';
 //        int count = 0;
 //        int i;
 //        for (i = 0; i < chars.length; i++) {
@@ -13,7 +13,7 @@ public class CharArrayExample {
 //            }
 //        }
 //
-//        System.out.println(count);
+//        System.out.println("count=" + count);
 //              char[] chars2 = {'j', 'a', 'v', 'a', 'l', 'o', 'v', 'e'};
 //        char first;
 //        char seconds;
@@ -22,7 +22,7 @@ public class CharArrayExample {
 //
 //
 //        System.out.println(chars2[first] + " " + chars2[seconds]);
-
+//
 //        char[] chars3 = {'j', 'a', 'v', 'a', 'l', 'o', 'l', 'y'};
 //
 //
@@ -41,12 +41,13 @@ public class CharArrayExample {
 //        }
         char[] bobarray = {'b', 'a', 'b', 'o', 'l', 'a'};
         for (int i = 0; i < bobarray.length; i++) {
-            if (bobarray[i]=='b'&&bobarray[i+2]=='b'){
+            if (bobarray[i] == 'b' && bobarray[i + 2] == 'b') {
                 System.out.println(true);
                 break;
-            }else{
+            } else {
                 System.out.println(false);
                 break;
+
             }
         }
     }
