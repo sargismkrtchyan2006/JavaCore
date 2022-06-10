@@ -1,4 +1,4 @@
-package homework;
+package homework.arrayutil;
 
 public class PracticeHomework {
     long convert(int minutes) {

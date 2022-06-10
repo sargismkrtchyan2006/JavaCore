@@ -1,4 +1,6 @@
-package homework;
+package homework.arrayutil;
+
+import homework.arrayutil.PracticeHomework;
 
 public class PracticeHomeworkDemo {
     public static void main(String[] args) {
