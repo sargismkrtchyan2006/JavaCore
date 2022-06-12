@@ -1,15 +1,15 @@
 package homework.bracechecker;
 
 public class Stack {
-  private   int[] array = new int[10];
-   private int size;
+    private int[] array = new int[10];
+    private int size;
 
-  public   Stack() {
+    public Stack() {
         size = -1;
     }
 
 
-   public void push(int x) {
+    public void push(int x) {
         if (size == array.length) {
             System.out.println("stack is end");
         } else {
@@ -17,12 +17,15 @@ public class Stack {
         }
     }
 
-  public   int pop() {
+    public int pop() {
         if (size < 0) {
-            System.out.println("stack is empty");
             return 0;
         } else {
             return array[size--];
         }
+    }
+
+    public boolean isempty() {
+        return size == -1;
     }
 }
