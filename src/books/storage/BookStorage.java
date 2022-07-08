@@ -1,10 +1,12 @@
-package books;
+package books.storage;
+
+import books.model.Book;
 
 public class BookStorage {
     private Book[] array = new Book[10];
     private int size = 0;
 
-    void add(Book book) {
+    public void add(Book book) {
         if (size == array.length) {
             increaseArray();
         }
@@ -21,7 +23,7 @@ public class BookStorage {
     }
 
 
-    void print() {
+    public void print() {
         for (int i = 0; i < size; i++) {
             System.out.println(i + "." + array[i] + " ");
         }
