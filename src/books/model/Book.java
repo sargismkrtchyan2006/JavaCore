@@ -6,19 +6,28 @@ public class Book {
     private String genre;
     private String title;
     private Author authorName;
+    private User registeredUser;
 
-    public Book(String title, Author authorName, double price, int count, String genre) {
+    public Book(String title, Author authorName, double price, int count, String genre, User registeredUser) {
         this.title = title;
         this.authorName = authorName;
         this.price = price;
         this.count = count;
         this.genre = genre;
+        this.registeredUser = registeredUser;
     }
 
     public Book() {
 
     }
 
+    public User getRegisteredUser() {
+        return registeredUser;
+    }
+
+    public void setRegisteredUser(User registeredUser) {
+        this.registeredUser = registeredUser;
+    }
 
     public String getTitle() {
         return title;
@@ -66,6 +75,7 @@ public class Book {
                 "price=" + price +
                 ", count=" + count +
                 ", genre='" + genre + '\'' +
+                ", registeredUser'" + registeredUser + '\'' +
                 ", title='" + title + '\'' +
                 ", authorName='" + authorName + '\'' +
                 '}';
