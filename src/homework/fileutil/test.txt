@@ -1,0 +1,2 @@
+Hello
+C:\Users\Admin\IdeaProjects\JavaCore\src\homework\fileutil\test.txt
